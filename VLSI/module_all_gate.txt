@@ -1,0 +1,9 @@
+module all_gate(output and_out, nand_out, or_out, nor_out, xor_out, xnor_out, not_out, input a,b);
+       and a1 (and_out,  a,b);
+       nand a2(nand_out, a,b);
+       or   a3(or_out,   a,b);
+       nor  a4(nor_out   a,b);
+       xor  a5(xor_out   a,b);
+       xnor a6(xnor_out  a,b);
+       not  a7(not_out   a,b);
+endmodule
